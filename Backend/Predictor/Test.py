@@ -21,11 +21,9 @@ def load_image(img_path, show=False):
 
 def run_test(file):
     model = load_model("model.h5")
-    img_path = file
 
-    new_image = load_image(img_path)
+    new_image = load_image(file)
 
     pred = model.predict(new_image)
     val = float(pred[0])
-    return val
-
+    return "Your costume is {}/10 scary".format(int(round((val*10), 0)))
