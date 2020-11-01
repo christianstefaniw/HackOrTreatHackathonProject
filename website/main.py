@@ -21,10 +21,10 @@ def test():
     <html>
     	<head>
         	<title>Score</title>
-        	<link rel="stylesheet" href="static/score.css">
+        	<link rel="stylesheet" href="static/test.css">
     	</head>
     	<body>
-        	<h1>Your costume is, ''' + Test.run_test(request.files['avatar']) + '''!</h1>
+        	<h1>''' + Test.run_test(request.files['avatar']) + '''</h1>
     	</body>
 	</html>  '''
 
