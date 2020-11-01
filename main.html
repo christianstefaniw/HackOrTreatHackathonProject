@@ -16,9 +16,12 @@
     <main>
         <img src="backimg.svg" alt="backimage" style="width: 1530px;">
         <img class="intro" src="intro.svg" alt="Intro">
-        <input class="upload" type="file"
-        id="avatar" name="avatar"
-        accept="image/png, image/jpeg">
+        <form action="http://127.0.0.1:5000/test" method="POST" enctype="multipart/form-data" name="form">
+            <input class="upload" type="file"
+            id="avatar" name="avatar"
+            accept="image/png, image/jpeg">
+            <input type="submit">
+        </form>
     </main>
     <script src="main.js"></script>
 </body>
