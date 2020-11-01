@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Killer";
+  src: url("my.bleeding-scars.ttf");
+  src: local("Killer"), local("Killer"),
+    url("my.bleeding-scars.ttf") format("opentype");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.name {
+  position: absolute;
+  left: 287px;
+  top: 265px;
+  font-family: "Killer";
+  color: #ffffff;
+  font-size: 72px;
+  letter-spacing: 10px;
+  font-weight: 800;
+  text-shadow: 0px 5px 4px #a63232;
+}
+
+.main {
+  position: absolute;
+  left: 155px;
+  top: 110.73px;
+}
+
+.face {
+  position: absolute;
+  width: 314.5px;
+  height: 246.5px;
+  left: 1106.04px;
+  top: 180.7px;
+}
+
+.fog {
+  position: absolute;
+  left: -48px;
+  top: 157px;
+  overflow: hidden;
+}
+
+head {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.start {
+  position: absolute;
+  width: 81px;
+  height: 34px;
+  left: 350px;
+  top: 405px;
+
+  font-family: Killer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  color: #000000;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.start:hover {
+  font-weight: bolder;
+  font-size: 22px;
+  color: #ffffff !important;
+  background: #721717;
+  border-color: #721717 !important;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
