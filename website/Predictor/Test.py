@@ -20,7 +20,7 @@ def load_image(img_path, show=False):
 
 
 def run_test(file):
-    model = load_model("C:\\Users\\cpste\\Desktop\\HackOrTreatHackathonProject\\Backend\\Predictor\\model.h5") #!!CHANGE THIS TO YOUR PATH!!#
+    model = load_model("C:\\Users\\cpste\\Desktop\\HackOrTreatHackathonProject\\website\\Predictor\\model.h5") #!!CHANGE THIS TO YOUR PATH!!#
     file.save('img.jpg')
 
     new_image = load_image('img.jpg')
